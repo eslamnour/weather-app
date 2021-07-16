@@ -1,0 +1,26 @@
+{{>header}}
+{{>navbar}}
+  <div id="main">
+    <div id="app" class="d-flex justify-content-md-center align-items-center vh-100">
+      <form id="myFrom">
+      <div class="form-group">
+        <label for="country">Country</label>
+        <input type="text" class="form-control" id="address" >
+        <small id="error" class="form-text text-danger"></small>
+      </div>
+      <button type="submit" class="btn btn-success">Search</button>
+          <div>
+       <div class="form-text">
+        <h4 class='d-inline text-secondary'>Country Name:</h4>
+        <h6 class='text-info' id='country'>--</h6>
+       </div> 
+              <div class="form-text">
+        <h4 class='d-inline text-secondary'>Weather:</h4>
+        <h6 class='text-info'id='forecast'>--</h6>
+       </div> 
+    </form>
+
+    </div>
+    </div>
+  </div>
+{{>footer}}
